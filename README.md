@@ -5,4 +5,5 @@ Since SSL Rekeying is required every 397 days, this is a script which does the c
 
 We have to get the certificates beforehand from the SSL provider (e.g. GoDaddy)
 
-Here, firstly we are consolidating the certificate, bundle and the private key. We are also creating the necessary backups. Finally we are replacing the SSL certificate.
+Here, firstly we are consolidating the certificate, bundle and the private key. We are also creating the necessary backups. Finally we are replacing the SSL certificate in the haproxy.cfg file.
+
